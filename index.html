@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./fasion.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <script src="./script.js"></script>
+    <h1>Zebo's calculator</h1>
+    <div class="calculator">
+        <input type="text" class="calculator-display" id="display" placeholder="Natija: " disabled>
+        <div class="calculator-buttons">
+            <br><br>
+            <button class="bt" onclick="clearDisplay()">C</button>
+            <button class="bt" onclick="a()">(</button>
+            <button class="bt" onclick="b()">)</button>
+            <button class="bt" onclick="calculatePercentage()">%</button><br>
+            <button class="btn" onclick="appendNumber('7')">7</button>
+            <button class="btn" onclick="appendNumber('8')">8</button>
+            <button class="btn" onclick="appendNumber('9')">9</button>
+            <button class="bt" onclick="appendNumber('+')">+</button><br>
+            <button class="btn" onclick="appendNumber('4')">4</button>
+            <button class="btn" onclick="appendNumber('5')">5</button>
+            <button class="btn" onclick="appendNumber('6')">6</button>
+            <button class="bt" onclick="appendNumber('-')">-</button><br>
+            <button class="btn" onclick="appendNumber('1')">1</button>
+            <button class="btn" onclick="appendNumber('2')">2</button>
+            <button class="btn" onclick="appendNumber('3')">3</button>
+            <button class="bt" onclick="appendNumber('*')">x</button><br>
+            <button class="btn" onclick="appendNumber('0')">0</button>
+            <button class="btn" onclick="appendNumber('.')">.</button>
+            <button class="btn" onclick="calculate()">=</button>
+            <button class="bt" onclick="appendNumber('/')">&divide;</button><br>
+           
+           
+        </div>
+</body>
+</html>
